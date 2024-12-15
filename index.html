@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>線上公祭 - [昨晚沒睡好28]</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>線上公祭</h1>
+        <p>我們在此紀念 [昨晚沒睡好28]，願他/她安息。</p>
+    </header>
+
+    <section class="memorial">
+        <div class="image">
+            <img src="https://cdn.discordapp.com/attachments/1197344452147150960/1295560384635338854/8a38176c5951b209.png?ex=675f83a2&is=675e3222&hm=f5c960599bc3eaa3ca94d57777657ed98a0d1a268526466310d4d279fd73f116&" alt="逝者照片">
+        </div>
+        <div class="message">
+            <h2>公祭信息</h2>
+            <p>檢舉的都死媽。</p>
+        </div>
+    </section>
+
+    <section class="tributes">
+        <h2>致敬留言</h2>
+        <form id="tributeForm">
+            <label for="name">您的名字:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="message">留言內容:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">送出</button>
+        </form>
+        <div id="tributesList"></div>
+    </section>
+
+    <section class="candle">
+        <h2>點亮一盞燭光</h2>
+        <button id="lightCandleBtn">點亮燭光</button>
+        <div id="candleDisplay"></div>
+    </section>
+
+    <footer>
+        <p>© 2024 [網站名稱]，所有權利保留。</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
